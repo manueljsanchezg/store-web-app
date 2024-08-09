@@ -1,0 +1,40 @@
+.product-card {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #fff;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card button {
+    cursor: pointer;
+}
+
+.product-card-content {
+    padding: 15px;
+}
+
+.product-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px;
+}
+  
+.product-card-price {
+    font-size: 14px;
+    color: #e67e22;
+    font-weight: bold;
+    margin: 10px;
+}

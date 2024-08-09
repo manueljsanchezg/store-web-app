@@ -1,0 +1,34 @@
+.footer {
+    margin-top: auto;
+    border-top: 1px solid rgb(82, 79, 79);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-items, .footer-social-medias {
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-items li, .footer-social-medias li {
+  display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.footer p {
+    margin: 0; 
+    font-size: 14px;
+    color: #666;
+  }
