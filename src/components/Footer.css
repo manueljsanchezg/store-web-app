@@ -1,6 +1,6 @@
 .footer {
     margin-top: auto;
-    border-top: 1px solid rgb(82, 79, 79);
+    border-top: 1px outset rgb(82, 79, 79);
     padding: 20px 0;
     text-align: center;
 }
@@ -24,7 +24,7 @@
 a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer p {

@@ -4,7 +4,7 @@ import ProductCard from '../components/ProductCard.jsx'
 import './HomePage.css'
 
 const HomePage = () => {
-    const [products, setProducts] = useState([])
+  const [products, setProducts] = useState([])
 
   useEffect(() => {
     const getProducts = async () => {
