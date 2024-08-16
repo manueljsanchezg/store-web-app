@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Sora:wght@100..800&display=swap');
+
 .product-page {
     display: flex;
     flex-direction: row;
@@ -6,6 +8,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: start;
+    font-family: Moderustic;
   }
   
   .product-page-image {
@@ -23,6 +26,7 @@
   }
   
   .product-page-title {
+    font-family: Moderustic;
     font-size: 44px;
     font-weight: bold;
     margin: 20px 0;
