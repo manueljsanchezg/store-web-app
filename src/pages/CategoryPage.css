@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Sora:wght@100..800&display=swap');
-
-.homepage {
+.category-page {
     padding: 20px;
 }
 
-.homepage p, h1 {
+.category-page p, h1 {
     margin-left: 20px;
-    font-family: Moderustic;
-}
-
-h1 {
-    font-size: 34px;
-}
-
-p {
-    font-size: 18px;
 }
 
 .product-list {
