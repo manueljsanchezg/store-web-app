@@ -22,7 +22,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <h1 className="home-page-welcome">Bienvenido a nuestra tienda</h1>
-      <p>Explora nuestra selección de productos</p>
+      <p>Explora nuestra selección de productos, con cambios</p>
       <div className="product-list">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
